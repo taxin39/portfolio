@@ -11,7 +11,6 @@
 .header {
     width: 100%;
     height: 95vh;
-    margin-top: 3vh;
     position: relative;
 }
 
@@ -39,8 +38,8 @@
 }
 
 .header .menu .title h1 {
-    font-size: 8rem;
-    margin-left: 5%;
+    font-size: 7rem;
+    margin-top: -2vh;
     white-space: nowrap;
     font-family: "Island Moments", cursive;
     font-weight: 400;
@@ -50,6 +49,7 @@
 
 .header .menu .title h2 {
     font-size: 3.4rem;
+    margin-top: -5vh;
     margin-left: 8%;
     font-style: normal;
     font-family: "Island Moments", cursive;
@@ -61,6 +61,7 @@
 /*メニューリスト*************/
 .header .menu .menu-list {
     display: flex;
+    margin-top: -10vh;
     margin-right: 10%;
 }
 
@@ -105,7 +106,12 @@
 }
 
 #works .design {
-    margin-left: 44%;
+    margin-left: 38%;
+}
+
+#works .design p {
+    margin-bottom: 3vh;
+    font-size: 1.2rem;
 }
 
  
@@ -175,18 +181,19 @@
 #consept {
     width: 40%;
     height: 60vh;
+    margin-top: 28vh;
     margin-left: 30%;
 }
 
 #consept h1 {
     text-align: center;
     font-size: 5rem;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
 }
 
 #consept p {
-    font-size: 1.4rem;
+    font-size: 1.0rem;
     margin-bottom: 6vh;
 }
 
@@ -200,13 +207,13 @@
 #gratitude h1 {
     text-align: center;
     font-size: 5rem;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-top: 25vh;
+    margin-bottom: 5vh;
 }
 
 #gratitude p {
-    font-size: 1.4rem;
-    margin-bottom: 3vh;
+    font-size: 1.0rem;
+    margin-bottom: 6vh;
 }
 
 /**footer**********************/
@@ -218,7 +225,7 @@
 
 .footer .SNS {
     display: flex;
-    margin-top: 1%;
+    margin-top: 25vh;
     margin-left: 30%;
 }
 
@@ -245,7 +252,11 @@
 }
 
 .footer .last {
-    margin-top: 8vh;
+    margin-top: 35vh;
+}
+
+.footer .last h3 {
+    font-size: 0.8rem;
 }
 
 /**レスポンシブ**********************/
@@ -264,6 +275,7 @@
 
     .header .menu .title h1 {
         font-size: 4rem;
+        margin-top: 0.2vh;
         margin-left: 5%;
         font-family: "Island Moments", cursive;
         font-weight: 400;
@@ -273,11 +285,14 @@
     .header .menu .title h2 {
         font-size: 2.0rem;
         margin-left: 10%;
+        margin-top: -1.6vh;
+
     }
 
     .header .menu .menu-list ul li {
         font-size: 1.2rem;
         margin-right: 8%;
+        margin-top: 10vh;
     }
 
     /**works**********************/
@@ -299,9 +314,14 @@
     }
 
     #works .design {
-        margin-left: 35vw;
-        font-size: 1.0rem;
+        margin-left: 5vw;
     }
+
+    #works p {
+        text-align: left;
+        margin-left: 32%;
+    }
+
     /*img*******************/
     #works .img {
         text-align: center;
@@ -383,8 +403,8 @@
     /**gratitude**********************/
     #gratitude {
         width: 80%;
-        height: 65vh;
-        margin-top: 12vh;
+        height: 30vh;
+        margin-top: -16vh;
         margin-left: 12%;
     }
 
@@ -395,19 +415,19 @@
     }
     
     #gratitude p {
-        font-size: 1.4rem;
+        font-size: 0.8rem;
         margin-bottom: 3vh;
     }
 
     /**footer**********************/
     .footer {
+        margin-top: -26%;
         width: 100%;
-        height: 6vh;
+        height: 5vh;
     }
     
     .footer .SNS {
         display: flex;
-        margin-top: -10%;
         margin-left: 12%;
     }
     
@@ -432,7 +452,6 @@
     }
     
     .footer .last {
-        margin-top: 3vh;
         margin-left: -34%;
         font-size: 0.8rem;
     }
@@ -454,7 +473,6 @@
     .header .menu {
         flex-direction: column; 
         justify-content: center; 
-        margin-left: 1%;
     }
 
     .header .menu .title h1 {
@@ -472,7 +490,7 @@
     .header .menu .menu-list {
         width: 100%;
         margin-right: 0;
-        margin-top: 10px; 
+        margin-top: -20%; 
         display: flex;    
         justify-content: center;
     }
@@ -502,10 +520,10 @@
     }
 
     #works .design {
-        margin-left: 20%;
+        margin-left: -10%;
     }
         
-    #works .design h2 {
+    #works .design p {
         font-size: 1.2rem;
     }
     #works .img .img1 {
@@ -586,7 +604,7 @@
         text-align: center;
         font-size: 3.2rem;
         margin-top: 5vh;
-        margin-bottom: 3vh;
+        margin-bottom: 5vh;
     }
 
     #gratitude p {
@@ -604,7 +622,7 @@
 
     .footer .SNS {
         display: flex;
-        margin-top: -40%;
+        margin-top: -4%;
         margin-left: 12%;
     }
     
@@ -631,204 +649,13 @@
     }
     
     .footer .last {
-        margin-top: -5vh;
-        margin-left: -60%;
-        font-size: 0.4rem;
-    }    
+        margin-top: 6vh;
+        margin-left: -70%;
+    }
+
+    .footer .last h3 {
+        font-size: 0.6rem;
+
+    }
 }
 
-/*小型デスクトップ用*************/
-@media (max-width: 1024px) {
-    .header {
-        height: 800px;
-        margin-left: 10%;
-    }
-
-    .header img {
-        height: 800px;
-        width: 100%; 
-        object-fit: cover;
-    }
-
-    .header .menu .title h1 {
-        font-size: 5.0rem;
-        margin-left: 5%;
-        font-family: "Island Moments", cursive;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .header .menu .title h2 {
-        font-size: 3.0rem;
-        margin-left: 10%;
-    }
-
-    .header .menu .menu-list {
-        margin-right: 20%;
-    }
-
-    .header .menu .menu-list ul li {
-        font-size: 1.4rem;
-        margin-right: 8%;
-    }
-
-    /**works**********************/
-    #works {
-        width: 100%;
-    }
-
-    #works h1 {
-        text-align: center;
-        font-size: 6.4rem;
-        font-weight: 900;
-        padding-left:6%;
-    }
-
-    #works .first {
-        text-align: center;
-        font-size: 1.2rem;
-        padding-left:6%;
-    }
-
-    #works .design {
-        margin-left: 38vw;
-        font-size: 1.0rem;
-    }
-
-    /*img*******************/
-    #works .img {
-        text-align: center;
-        position: relative;
-    }
-    /*img1*******************/
-    #works .img .img1 {
-        width: 100%;
-        margin-left: 8%;
-    }
-
-    #works .img .img1 img {
-        width: 40vw;
-        height: 25vh;
-        transition: 0.2s;
-    }
-
-    #works .img .img1 img:hover {
-        transform: scale(1.2);
-    }
-
-     /*img2*******************/
-     #works .img .img2 {
-        width: 100%;
-        margin-left: 1vw;
-        margin-right: 1%;
-    }
-
-    #works .img .img2 img {
-        width: 40vw;
-        height: 25vh;
-        transition: 0.2s;
-    }
-
-    #works .img .img2 img:hover {
-        transform: scale(1.2);
-    }
-    /*img3*******************/
-    #works .img .img3 {
-        width: 100%;
-        margin-left: 4vw;
-        position: absolute; 
-        top: 28vh;
-    }
-    
-    #works .img .img3 img {
-        width: 40vw;
-        height: 25vh;
-        transition: 0.2s;
-        margin-left: 6vw;
-
-    }
-    
-    /* img3の画像に対するホバー効果を適用 */
-    #works .img .img3 img:hover {
-        transform: scale(1.2);
-    }
-
-    /**consept**********************/
-    #consept {
-        width: 80%;
-        height: 60vh;
-        margin-top: 20vh;
-        margin-left: 12%;
-    }
-
-    #consept h1 {
-        text-align: center;
-        font-size: 5.4rem;
-        margin-top: 10vh;
-        margin-bottom: 5vh;
-    }
-
-    #consept p {
-        font-size: 1.4rem;
-        margin-left: 10%;
-        margin-bottom: 6vh;
-    }
-
-    /**gratitude**********************/
-    #gratitude {
-        width: 80%;
-        height: 65vh;
-        margin-top: 12vh;
-        margin-left: 12%;
-    }
-
-    #gratitude h1 {
-        margin-bottom: 5vh;
-        font-size: 5.2rem;
-    }
-    
-    #gratitude p {
-        font-size: 1.4rem;
-        margin-bottom: 3vh;
-        margin-left: 10%;
-    }
-
-    /**footer**********************/
-    .footer {
-        width: 100%;
-        height: 4vh;
-    }
-    
-    .footer .SNS {
-        display: flex;
-        margin-top: -10%;
-        margin-left: 20%;
-    }
-    
-    .footer .SNS .first {
-        width: 12%;
-        height: 12%;
-    }
-    
-    .footer .SNS .first svg {
-        width: 100%;
-    }
-    
-    .footer .SNS .second {
-        width: 12%;
-        height: 12%;
-    }
-    
-    .footer .SNS .second svg {
-        margin-top: 5%;
-        margin-left: 50%;
-        width: 100%;
-    }
-    
-    .footer .last {
-        margin-top: 0vh;
-        margin-left: -20%;
-        font-size: 1.0rem;
-    }
-
-}
