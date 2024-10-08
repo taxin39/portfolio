@@ -439,7 +439,7 @@
 
 .header .menu .title h1 {
     font-size: 7rem;
-    margin-top: -2vh;
+    margin-top: 2vh;
     white-space: nowrap;
     font-family: "Island Moments", cursive;
     font-weight: 400;
@@ -449,7 +449,7 @@
 
 .header .menu .title h2 {
     font-size: 3.4rem;
-    margin-top: -5vh;
+    margin-top: 5vh;
     margin-left: 8%;
     font-style: normal;
     font-family: "Island Moments", cursive;
@@ -491,12 +491,12 @@
 /*テキスト*******************/
 #works h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 10rem;
     margin-bottom: 5vh;
 }
 
 #works h2 {
-    font-size: 1.4rem;
+    font-size: 4.8rem;
     margin-bottom: 2vh;
 }
 
@@ -511,7 +511,7 @@
 
 #works .design p {
     margin-bottom: 3vh;
-    font-size: 1.2rem;
+    font-size: 3.6rem;
 }
 
  
@@ -581,19 +581,19 @@
 #consept {
     width: 40%;
     height: 60vh;
-    margin-top: 28vh;
+    margin-top: -10vh;
     margin-left: 30%;
 }
 
 #consept h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 10rem;
     margin-top: 20vh;
     margin-bottom: 5vh;
 }
 
 #consept p {
-    font-size: 1.0rem;
+    font-size: 3.6rem;
     margin-bottom: 6vh;
 }
 
@@ -607,12 +607,12 @@
 #gratitude h1 {
     text-align: center;
     font-size: 5rem;
-    margin-top: 25vh;
+    margin-top: -10vh;
     margin-bottom: 5vh;
 }
 
 #gratitude p {
-    font-size: 1.0rem;
+    font-size: 3.6rem;
     margin-bottom: 6vh;
 }
 
@@ -625,13 +625,13 @@
 
 .footer .SNS {
     display: flex;
-    margin-top: 25vh;
+    margin-top: -10vh;
     margin-left: 30%;
 }
 
 .footer .SNS .first {
-    width: 8%;
-    height: 8%;
+    width: 30%;
+    height: 30%;
 }
 
 .footer .SNS .first svg {
@@ -640,8 +640,8 @@
 }
 
 .footer .SNS .second {
-    width: 8%;
-    height: 8%;
+    width: 30%;
+    height: 30%;
 }
 
 .footer .SNS .second svg {
@@ -652,7 +652,7 @@
 }
 
 .footer .last {
-    margin-top: 35vh;
+    margin-top: -15vh;
 }
 
 .footer .last h3 {
