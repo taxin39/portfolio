@@ -5,6 +5,406 @@
     max-height: 100vh;
     box-sizing: border-box;
 }
+/**レスポンシブ**********************/
+
+/*スマートフォン*************/
+/**ヘッダー**********************/
+@media (max-width: 480px) {
+    .header {
+        height: 50vh;
+    }
+
+    .header img {
+        height: 600px;
+        width: 100%; 
+        object-fit: cover;
+    }
+
+    .header .menu {
+        flex-direction: column; 
+        justify-content: center; 
+    }
+
+    .header .menu .title h1 {
+        font-size: 4.0rem;
+        margin-left: 5%;
+    }
+
+
+    .header .menu .title h2 {
+        font-size: 2.0rem;
+        margin-left: 10%;
+        margin-top: -1.4vh;
+    }
+
+    .header .menu .menu-list {
+        width: 100%;
+        margin-right: 0;
+        margin-top: -20%; 
+        display: flex;    
+        justify-content: center;
+    }
+
+    .header .menu .menu-list ul {
+        display: flex; 
+        margin-right: 20%;
+    }
+
+    .header .menu .menu-list ul li {
+        font-size: 1.2rem;
+        margin-right: 20px; 
+        margin-bottom: 0; 
+        margin-right: 16%;
+    }
+
+    /*img*******************/
+    /*img1*******************/
+    #works {
+        width: 100%;
+        height: 130vh;
+    }
+
+    #works .img {
+        height: 80vh;
+        display: block;
+    }
+
+    #works .design {
+        margin-left: -10%;
+    }
+        
+    #works .design p {
+        font-size: 1.2rem;
+    }
+    #works .img .img1 {
+        margin-top: -5vh;
+        width: 100%;
+        height: 25vh;
+
+    }
+
+    #works .img .img1 img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    
+      }
+
+    /*img2*******************/
+    #works .img .img2 {
+        margin-top: 2vh;
+        width: 100%;
+        height: auto;
+        margin-left: 2%;
+    }
+
+    #works .img .img2 img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: 25vh;
+      }
+
+    /*img3*******************/
+    #works .img .img3 {
+        margin-top: 26vh;
+        width: 100%;
+        height: auto;
+        margin-left: 2%;
+    }
+
+    #works .img .img3 img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: 25vh;
+      }
+
+    /**consept**********************/
+    #consept {
+        width: 80%;
+        height: 5vh;
+        text-align: center;
+        margin-left: 12%;
+        margin-top: 96%;
+    }
+
+    #consept h1 {
+        text-align: center;
+        font-size: 3.6rem;
+        margin-top: 5vh;
+        margin-bottom:3vh;
+    }
+
+    #consept p {
+        font-size: 1.0rem;
+        margin-bottom: 3vh;
+        text-align: left;
+    }
+    /**gratitude**********************/
+    #gratitude {
+        width: 80%;
+        height: 65vh;
+        margin-top: 52vh;
+        text-align: center;
+        margin-left: 12%;
+    }
+
+    #gratitude h1 {
+        text-align: center;
+        font-size: 3.2rem;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    #gratitude p {
+        font-size: 1.0rem;
+        margin-bottom: 3vh;
+        text-align: left;
+    }
+
+    /**footer**********************/
+    .footer {
+        width: 100%;
+        height: 0vh;
+        display: flex;
+    }
+
+    .footer .SNS {
+        display: flex;
+        margin-top: -4%;
+        margin-left: 12%;
+    }
+    
+    .footer .SNS .first {
+        width: 12%;
+        height: 12%;
+    }
+    
+    .footer .SNS .first svg {
+        width: 100%;
+        padding-top: 5%;
+    }
+    
+    .footer .SNS .second {
+        width: 12%;
+        height: 12%;
+    }
+    
+    .footer .SNS .second svg {
+        margin-top: 5%;
+        margin-left: 50%;
+        width: 100%;
+        padding-top: 5%;
+    }
+    
+    .footer .last {
+        margin-top: 6vh;
+        margin-left: -70%;
+    }
+
+    .footer .last h3 {
+        font-size: 0.6rem;
+
+    }
+}
+
+/*タブレット*************/
+/*ヘッダー**********************/
+@media (max-width: 768px) {
+    .header {
+        height: 800px;
+    }
+
+    .header img {
+        height: 800px;
+        width: 100%; 
+        object-fit: cover;
+    }
+
+    .header .menu .title h1 {
+        font-size: 4rem;
+        margin-top: 0.2vh;
+        margin-left: 5%;
+        font-family: "Island Moments", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .header .menu .title h2 {
+        font-size: 2.0rem;
+        margin-left: 10%;
+        margin-top: -1.6vh;
+
+    }
+
+    .header .menu .menu-list ul li {
+        font-size: 1.2rem;
+        margin-right: 8%;
+        margin-top: 10vh;
+    }
+
+    /**works**********************/
+    #works {
+        width: 100%;
+    }
+
+    #works h1 {
+        text-align: center;
+        font-size: 5.6rem;
+        font-weight: 900;
+        padding-left:6%;
+    }
+
+    #works .first {
+        text-align: center;
+        font-size: 1.2rem;
+        padding-left:6%;
+    }
+
+    #works .design {
+        margin-left: 5vw;
+    }
+
+    #works p {
+        text-align: left;
+        margin-left: 32%;
+    }
+
+    /*img*******************/
+    #works .img {
+        text-align: center;
+        position: relative;
+    }
+    /*img1*******************/
+    #works .img .img1 {
+        width: 100%;
+        margin-left: 4%;
+    }
+
+    #works .img .img1 img {
+        width: 40vw;
+        height: 25vh;
+        transition: 0.2s;
+    }
+
+    #works .img .img1 img:hover {
+        transform: scale(1.2);
+    }
+
+     /*img2*******************/
+     #works .img .img2 {
+        width: 100%;
+        margin-left: 1vw;
+        margin-right: 1%;
+    }
+
+    #works .img .img2 img {
+        width: 40vw;
+        height: 25vh;
+        transition: 0.2s;
+    }
+
+    #works .img .img2 img:hover {
+        transform: scale(1.2);
+    }
+    /*img3*******************/
+    #works .img .img3 {
+        width: 100%;
+        margin-left: 4vw;
+        position: absolute; 
+        top: 28vh;
+    }
+    
+    #works .img .img3 img {
+        width: 40vw;
+        height: 25vh;
+        transition: 0.2s;
+        margin-left: 6vw;
+
+    }
+    
+    /* img3の画像に対するホバー効果を適用 */
+    #works .img .img3 img:hover {
+        transform: scale(1.2);
+    }
+
+    /**consept**********************/
+    #consept {
+        width: 80%;
+        height: 60vh;
+        margin-top: 20vh;
+        margin-left: 12%;
+    }
+
+    #consept h1 {
+        text-align: center;
+        font-size: 4.6rem;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+
+    #consept p {
+        font-size: 1.4rem;
+        margin-bottom: 6vh;
+    }
+
+    /**gratitude**********************/
+    #gratitude {
+        width: 80%;
+        height: 30vh;
+        margin-top: -16vh;
+        margin-left: 12%;
+    }
+
+    #gratitude h1 {
+        margin-bottom: 5vh;
+        font-size: 4.6rem;
+
+    }
+    
+    #gratitude p {
+        font-size: 0.8rem;
+        margin-bottom: 3vh;
+    }
+
+    /**footer**********************/
+    .footer {
+        margin-top: -26%;
+        width: 100%;
+        height: 5vh;
+    }
+    
+    .footer .SNS {
+        display: flex;
+        margin-left: 12%;
+    }
+    
+    .footer .SNS .first {
+        width: 12%;
+        height: 12%;
+    }
+    
+    .footer .SNS .first svg {
+        width: 100%;
+    }
+    
+    .footer .SNS .second {
+        width: 12%;
+        height: 12%;
+    }
+    
+    .footer .SNS .second svg {
+        margin-top: 5%;
+        margin-left: 50%;
+        width: 100%;
+    }
+    
+    .footer .last {
+        margin-left: -34%;
+        font-size: 0.8rem;
+    }
+}
 
 /**ヘッダー**********************/
 /*全体**********************/
@@ -259,403 +659,5 @@
     font-size: 0.8rem;
 }
 
-/**レスポンシブ**********************/
-/*タブレット*************/
-/*ヘッダー**********************/
-@media (max-width: 768px) {
-    .header {
-        height: 800px;
-    }
 
-    .header img {
-        height: 800px;
-        width: 100%; 
-        object-fit: cover;
-    }
-
-    .header .menu .title h1 {
-        font-size: 4rem;
-        margin-top: 0.2vh;
-        margin-left: 5%;
-        font-family: "Island Moments", cursive;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .header .menu .title h2 {
-        font-size: 2.0rem;
-        margin-left: 10%;
-        margin-top: -1.6vh;
-
-    }
-
-    .header .menu .menu-list ul li {
-        font-size: 1.2rem;
-        margin-right: 8%;
-        margin-top: 10vh;
-    }
-
-    /**works**********************/
-    #works {
-        width: 100%;
-    }
-
-    #works h1 {
-        text-align: center;
-        font-size: 5.6rem;
-        font-weight: 900;
-        padding-left:6%;
-    }
-
-    #works .first {
-        text-align: center;
-        font-size: 1.2rem;
-        padding-left:6%;
-    }
-
-    #works .design {
-        margin-left: 5vw;
-    }
-
-    #works p {
-        text-align: left;
-        margin-left: 32%;
-    }
-
-    /*img*******************/
-    #works .img {
-        text-align: center;
-        position: relative;
-    }
-    /*img1*******************/
-    #works .img .img1 {
-        width: 100%;
-        margin-left: 4%;
-    }
-
-    #works .img .img1 img {
-        width: 40vw;
-        height: 25vh;
-        transition: 0.2s;
-    }
-
-    #works .img .img1 img:hover {
-        transform: scale(1.2);
-    }
-
-     /*img2*******************/
-     #works .img .img2 {
-        width: 100%;
-        margin-left: 1vw;
-        margin-right: 1%;
-    }
-
-    #works .img .img2 img {
-        width: 40vw;
-        height: 25vh;
-        transition: 0.2s;
-    }
-
-    #works .img .img2 img:hover {
-        transform: scale(1.2);
-    }
-    /*img3*******************/
-    #works .img .img3 {
-        width: 100%;
-        margin-left: 4vw;
-        position: absolute; 
-        top: 28vh;
-    }
-    
-    #works .img .img3 img {
-        width: 40vw;
-        height: 25vh;
-        transition: 0.2s;
-        margin-left: 6vw;
-
-    }
-    
-    /* img3の画像に対するホバー効果を適用 */
-    #works .img .img3 img:hover {
-        transform: scale(1.2);
-    }
-
-    /**consept**********************/
-    #consept {
-        width: 80%;
-        height: 60vh;
-        margin-top: 20vh;
-        margin-left: 12%;
-    }
-
-    #consept h1 {
-        text-align: center;
-        font-size: 4.6rem;
-        margin-top: 10vh;
-        margin-bottom: 5vh;
-    }
-
-    #consept p {
-        font-size: 1.4rem;
-        margin-bottom: 6vh;
-    }
-
-    /**gratitude**********************/
-    #gratitude {
-        width: 80%;
-        height: 30vh;
-        margin-top: -16vh;
-        margin-left: 12%;
-    }
-
-    #gratitude h1 {
-        margin-bottom: 5vh;
-        font-size: 4.6rem;
-
-    }
-    
-    #gratitude p {
-        font-size: 0.8rem;
-        margin-bottom: 3vh;
-    }
-
-    /**footer**********************/
-    .footer {
-        margin-top: -26%;
-        width: 100%;
-        height: 5vh;
-    }
-    
-    .footer .SNS {
-        display: flex;
-        margin-left: 12%;
-    }
-    
-    .footer .SNS .first {
-        width: 12%;
-        height: 12%;
-    }
-    
-    .footer .SNS .first svg {
-        width: 100%;
-    }
-    
-    .footer .SNS .second {
-        width: 12%;
-        height: 12%;
-    }
-    
-    .footer .SNS .second svg {
-        margin-top: 5%;
-        margin-left: 50%;
-        width: 100%;
-    }
-    
-    .footer .last {
-        margin-left: -34%;
-        font-size: 0.8rem;
-    }
-}
-
-/*スマートフォン*************/
-/**ヘッダー**********************/
-@media (max-width: 480px) {
-    .header {
-        height: 50vh;
-    }
-
-    .header img {
-        height: 600px;
-        width: 100%; 
-        object-fit: cover;
-    }
-
-    .header .menu {
-        flex-direction: column; 
-        justify-content: center; 
-    }
-
-    .header .menu .title h1 {
-        font-size: 4.0rem;
-        margin-left: 5%;
-    }
-
-
-    .header .menu .title h2 {
-        font-size: 2.0rem;
-        margin-left: 10%;
-        margin-top: -1.4vh;
-    }
-
-    .header .menu .menu-list {
-        width: 100%;
-        margin-right: 0;
-        margin-top: -20%; 
-        display: flex;    
-        justify-content: center;
-    }
-
-    .header .menu .menu-list ul {
-        display: flex; 
-        margin-right: 20%;
-    }
-
-    .header .menu .menu-list ul li {
-        font-size: 1.2rem;
-        margin-right: 20px; 
-        margin-bottom: 0; 
-        margin-right: 16%;
-    }
-
-    /*img*******************/
-    /*img1*******************/
-    #works {
-        width: 100%;
-        height: 130vh;
-    }
-
-    #works .img {
-        height: 80vh;
-        display: block;
-    }
-
-    #works .design {
-        margin-left: -10%;
-    }
-        
-    #works .design p {
-        font-size: 1.2rem;
-    }
-    #works .img .img1 {
-        margin-top: -5vh;
-        width: 100%;
-        height: 25vh;
-
-    }
-
-    #works .img .img1 img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-    
-      }
-
-    /*img2*******************/
-    #works .img .img2 {
-        margin-top: 2vh;
-        width: 100%;
-        height: auto;
-        margin-left: 2%;
-    }
-
-    #works .img .img2 img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-        height: 25vh;
-      }
-
-    /*img3*******************/
-    #works .img .img3 {
-        margin-top: 26vh;
-        width: 100%;
-        height: auto;
-        margin-left: 2%;
-    }
-
-    #works .img .img3 img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-        height: 25vh;
-      }
-
-    /**consept**********************/
-    #consept {
-        width: 80%;
-        height: 5vh;
-        text-align: center;
-        margin-left: 12%;
-        margin-top: 96%;
-    }
-
-    #consept h1 {
-        text-align: center;
-        font-size: 3.6rem;
-        margin-top: 5vh;
-        margin-bottom:3vh;
-    }
-
-    #consept p {
-        font-size: 1.0rem;
-        margin-bottom: 3vh;
-        text-align: left;
-    }
-    /**gratitude**********************/
-    #gratitude {
-        width: 80%;
-        height: 65vh;
-        margin-top: 52vh;
-        text-align: center;
-        margin-left: 12%;
-    }
-
-    #gratitude h1 {
-        text-align: center;
-        font-size: 3.2rem;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-    }
-
-    #gratitude p {
-        font-size: 1.0rem;
-        margin-bottom: 3vh;
-        text-align: left;
-    }
-
-    /**footer**********************/
-    .footer {
-        width: 100%;
-        height: 0vh;
-        display: flex;
-    }
-
-    .footer .SNS {
-        display: flex;
-        margin-top: -4%;
-        margin-left: 12%;
-    }
-    
-    .footer .SNS .first {
-        width: 12%;
-        height: 12%;
-    }
-    
-    .footer .SNS .first svg {
-        width: 100%;
-        padding-top: 5%;
-    }
-    
-    .footer .SNS .second {
-        width: 12%;
-        height: 12%;
-    }
-    
-    .footer .SNS .second svg {
-        margin-top: 5%;
-        margin-left: 50%;
-        width: 100%;
-        padding-top: 5%;
-    }
-    
-    .footer .last {
-        margin-top: 6vh;
-        margin-left: -70%;
-    }
-
-    .footer .last h3 {
-        font-size: 0.6rem;
-
-    }
-}
 
