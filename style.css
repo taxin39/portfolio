@@ -42,7 +42,7 @@
     font-size: 7rem;
     margin-top: -1vh;
     font-family: "Island Moments", cursive;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     user-select: none;
 }
@@ -50,7 +50,7 @@
 .header .menu .title h2 {
     font-size: 3.4rem;
     margin-top: -2vh;
-    margin-left: 8%;
+    text-align: center;
     font-style: normal;
     font-family: "Island Moments", cursive;
     font-weight: 400;
@@ -206,7 +206,7 @@
 #gratitude h1 {
     text-align: center;
     font-size: 5rem;
-    margin-top: 25%;
+    margin-top: 5%;
     font-weight: 700;
     margin-bottom: 8%;
 }
@@ -219,13 +219,12 @@
 /**footer**********************/
 .footer {
     width: 100%;
-    height: 10vh;
+    height: auto;
     display: flex;
 }
 
 .footer .SNS {
     display: flex;
-    margin-top: 8vh;
     margin-left: 30%;
 }
 
@@ -252,7 +251,7 @@
 }
 
 .footer .last {
-    margin-top: 16vh;
+    margin-top: 10vh;
 }
 
 .footer .last h3 {
@@ -275,11 +274,11 @@
     }
 
     .header .menu .title h1 {
-        font-size: 4rem;
-        margin-top: 0.2vh;
+        font-size: 3rem;
+        margin-top: 1vh;
         margin-left: 5%;
         font-family: "Island Moments", cursive;
-        font-weight: 400;
+        font-weight: 500;
         font-style: normal;
     }
 
@@ -299,6 +298,7 @@
     /**works**********************/
     #works {
         width: 100%;
+        height: auto;
     }
 
     #works h1 {
@@ -385,7 +385,7 @@
     /**consept**********************/
     #consept {
         width: 80%;
-        height: 60vh;
+        height: auto;
         margin-top: 20vh;
         margin-left: 12%;
     }
@@ -405,8 +405,8 @@
     /**gratitude**********************/
     #gratitude {
         width: 80%;
-        height: 30vh;
-        margin-top: 5vh;
+        height: auto;
+        margin-top: 10vh;
         margin-left: 12%;
     }
 
@@ -422,9 +422,8 @@
 
     /**footer**********************/
     .footer {
-        margin-top: 40%;
         width: 100%;
-        height: 5vh;
+        height: auto;
     }
     
     .footer .SNS {
@@ -438,6 +437,7 @@
     }
     
     .footer .SNS .first svg {
+        margin-top: 0%;
         width: 100%;
     }
     
@@ -447,13 +447,16 @@
     }
     
     .footer .SNS .second svg {
-        margin-top: 5%;
+        margin-top: 0%;
         margin-left: 50%;
         width: 100%;
     }
     
     .footer .last {
-        margin-left: -34%;
+        margin-left: -40%;
+    }
+
+    .footer .last h3 {
         font-size: 0.8rem;
     }
 }
@@ -462,36 +465,40 @@
 @media (max-width: 480px) {
     .header {
         height: 50vh;
+        position: relative;
     }
 
     .header img {
-        height: 600px;
+        height: 500px;
         width: 100%; 
         object-fit: cover;
     }
 
     .header .menu {
         flex-direction: column; 
-        justify-content: center; 
+        justify-content: center;
+        margin-top: 5%; 
     }
 
     .header .menu .title h1 {
-        font-size: 4.0rem;
-        margin-left: 5%;
+        font-size: 3.0rem;
+        margin-top: 4vh;
+        margin-left: 2%;
     }
 
 
     .header .menu .title h2 {
-        font-size: 2.0rem;
-        margin-left: 10%;
-        margin-top: -1.4vh;
+        font-size: 1.6rem;
+        margin-top: 0vh;
+        margin-left: -32%;
     }
 
     .header .menu .menu-list {
         width: 100%;
         margin-right: 0;
-        margin-top: -10%; 
-        display: flex;    
+        margin-top: -28%; 
+        display: flex;  
+        position: absolute;  
         justify-content: center;
     }
 
@@ -515,7 +522,7 @@
     }
 
     #works .img {
-        height: 80vh;
+        height: auto;
         display: block;
     }
 
@@ -526,54 +533,54 @@
     #works .design p {
         font-size: 1.2rem;
     }
+
     #works .img .img1 {
         margin-top: -5vh;
         width: 100%;
         height: 25vh;
-
     }
 
     #works .img .img1 img {
         display: block;
         margin: 0 auto;
         width: 80%;
-    
+        height: 30vh;
       }
 
     /*img2*******************/
     #works .img .img2 {
-        margin-top: 2vh;
+        margin-top: 8vh;
         width: 100%;
         height: auto;
-        margin-left: 2%;
+        margin-left: 4%;
     }
 
     #works .img .img2 img {
         display: block;
         margin: 0 auto;
         width: 80%;
-        height: 25vh;
+        height: 30vh;
       }
 
     /*img3*******************/
     #works .img .img3 {
-        margin-top: 26vh;
+        margin-top: 38vh;
         width: 100%;
         height: auto;
-        margin-left: 2%;
+        margin-left: 4%;
     }
 
     #works .img .img3 img {
         display: block;
         margin: 0 auto;
         width: 80%;
-        height: 25vh;
+        height: 30vh;
       }
 
     /**consept**********************/
     #consept {
         width: 80%;
-        height: 5vh;
+        height: auto;
         text-align: center;
         margin-left: 12%;
         margin-top: 96%;
@@ -595,7 +602,6 @@
     #gratitude {
         width: 80%;
         height: auto;
-        margin-top: 52vh;
         text-align: center;
         margin-left: 12%;
     }
@@ -622,7 +628,6 @@
 
     .footer .SNS {
         display: flex;
-        margin-top: -36%;
         margin-left: 12%;
     }
     
@@ -649,12 +654,11 @@
     }
     
     .footer .last {
-        margin-top: -6vh;
         margin-left: -70%;
     }
 
     .footer .last h3 {
-        font-size: 1.0rem;
+        font-size: 0.6rem;
 
     }
 }
