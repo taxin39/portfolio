@@ -50,7 +50,7 @@
 .header .menu .title h2 {
     font-size: 3.4rem;
     margin-top: -2vh;
-    text-align: center;
+    margin-left: 5%;
     font-style: normal;
     font-family: "Island Moments", cursive;
     font-weight: 400;
@@ -285,8 +285,7 @@
     .header .menu .title h2 {
         font-size: 2.0rem;
         margin-left: 10%;
-        margin-top: -1.5vh;
-
+        margin-top: -0.5vh;
     }
 
     .header .menu .menu-list ul li {
@@ -386,7 +385,7 @@
     #consept {
         width: 80%;
         height: auto;
-        margin-top: 20vh;
+        margin-top: 5vh;
         margin-left: 12%;
     }
 
@@ -457,7 +456,7 @@
     }
 
     .footer .last h3 {
-        font-size: 0.8rem;
+        font-size: 1.0rem;
     }
 }
 /*スマートフォン*************/
