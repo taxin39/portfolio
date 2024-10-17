@@ -531,14 +531,14 @@ button, input {
 
     .header .menu .menu-list ul {
         display: flex; 
-        margin-right: 20vw;
+        margin-right: 10vw;
     }
 
     .header .menu .menu-list ul li {
         font-size: 1.2rem;
-        margin-right: 20px; 
+        margin-right: 0px; 
         margin-bottom: 0; 
-        margin-right: 16vw;
+        margin-left: 16vw;
     }
 
     /*img*******************/
