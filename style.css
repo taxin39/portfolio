@@ -280,8 +280,8 @@ button, input {
 }
 
 .footer .last {
+    margin-top: auto; 
     height: auto;
-    margin-top: 25vh;
 }
 
 .footer .last h3 {
