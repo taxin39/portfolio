@@ -252,6 +252,7 @@ button, input {
 
 .footer .SNS {
     display: flex;
+    height: auto;
     margin-top: 15vh;
     margin-left: 30%;
 }
@@ -278,10 +279,12 @@ button, input {
     padding-top: 5%;
 }
 
-
+.footer .last {
+    height: auto;
+    margin-top: 25vh;
+}
 
 .footer .last h3 {
-    margin-top: 25vh;
     font-size: 1.2rem;
 }
 
