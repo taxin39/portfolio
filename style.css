@@ -252,6 +252,7 @@ button, input {
 
 .footer .SNS {
     display: flex;
+    margin-top: 10vh;
     margin-left: 30%;
 }
 
@@ -449,11 +450,12 @@ button, input {
     /**footer**********************/
     .footer {
         width: 100%;
-        height: auto;
+        height: 200vh;
     }
     
     .footer .SNS {
         display: flex;
+        height: 30%;
         margin-left: 12%;
     }
     
