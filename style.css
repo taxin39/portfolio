@@ -1,11 +1,38 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 100%;
-    max-height: 100vh;
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button, input {
+    border: none;
+    background: none;
+    padding: 0;
+    outline: none;
+}
 
 /**ヘッダー**********************/
 /*全体**********************/
@@ -463,14 +490,14 @@
 /**ヘッダー**********************/
 @media (max-width: 480px) {
     .header {
-        width: 100%;
+        width: 100vw;
         height: 50vh;
         position: relative;
     }
 
     .header img {
         height: 50vh;
-        width: 100%; 
+        width: 100vw; 
         object-fit: cover;
     }
 
@@ -483,7 +510,7 @@
     .header .menu .title h1 {
         font-size: 3.0rem;
         margin-top: 4vh;
-        margin-left: 2%;
+        margin-left: 2vw;
     }
 
 
@@ -494,9 +521,9 @@
     }
 
     .header .menu .menu-list {
-        width: 100%;
+        width: 100vw;
         margin-right: 0;
-        margin-top: -28%; 
+        margin-top: -28vh; 
         display: flex;  
         position: absolute;  
         justify-content: center;
@@ -504,14 +531,14 @@
 
     .header .menu .menu-list ul {
         display: flex; 
-        margin-right: 20%;
+        margin-right: 20vw;
     }
 
     .header .menu .menu-list ul li {
         font-size: 1.2rem;
         margin-right: 20px; 
         margin-bottom: 0; 
-        margin-right: 16%;
+        margin-right: 16vw;
     }
 
     /*img*******************/
@@ -589,7 +616,7 @@
         height: auto;
         text-align: center;
         margin-left: 12%;
-        margin-top: 40vh;
+        margin-top: 60vh;
     }
 
     #consept h1 {
@@ -648,8 +675,8 @@
     }
     
     .footer .SNS .second {
-        width: 12%;
-        height: 12%;
+        width: 12vw;
+        height: 12vh;
     }
     
     .footer .SNS .second svg {
