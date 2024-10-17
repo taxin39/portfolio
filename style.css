@@ -278,11 +278,10 @@ button, input {
     padding-top: 5%;
 }
 
-.footer .last {
-    margin-top: 25vh;
-}
+
 
 .footer .last h3 {
+    margin-top: 25vh;
     font-size: 1.2rem;
 }
 
