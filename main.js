@@ -4,7 +4,7 @@ const elements1 = document.querySelectorAll('.fade-in');
 // オプション設定
 const options = {
     root: null, // ビューポートを基準に
-    threshold: 0.1 // 要素の10%が表示されたときにコールバック
+    threshold: 0.15 // 要素の15%が表示されたときにコールバック
 };
 
 // コールバック関数
