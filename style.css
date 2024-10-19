@@ -681,52 +681,58 @@ table {
         margin-bottom: 3vh;
         text-align: left;
     }
-
-    /**footer**********************/
+    
     .footer {
         width: 100%;
         height: auto;
         display: flex;
-        padding: 0; /* パディングを削除 */
+        padding: 0;
+        clear: both; /* クリアを追加して重なりを防ぐ */
+        margin-top: 5vh; /* フッターと上部要素の間に余白を追加 */
     }
-
+    
     .footer .SNS {
         display: flex;
         height: auto;
         margin-top: 5%;
         margin-left: 8%;
     }
-
+    
     .footer .SNS .first {
         width: 12%;
         height: 12%;
         margin-top: 0;
     }
-
+    
     .footer .SNS .first svg {
         width: 100%;
         height: auto;
     }
-
+    
     .footer .SNS .second {
         width: 10vw;
         height: 12vh;
         margin-top: 0;
     }
-
+    
     .footer .SNS .second svg {
         margin-left: 10%;
         width: 100%;
-        padding-top: 0; /* パディングを削除 */
-        margin: 0; /* マージンを削除 */
+        padding-top: 0;
+        margin: 0;
     }
-
+    
     .footer .last {
         height: 5vh;
         margin-left: 50%;
     }
-
+    
     .footer .last h3 {
         font-size: 0.6rem;
+    }
+    
+    /* フッターとコンテンツの重なりを防ぐための追加調整 */
+    body {
+        padding-bottom: 5vh; /* フッターに余裕を持たせる */
     }
 }
