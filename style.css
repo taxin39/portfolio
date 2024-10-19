@@ -681,7 +681,7 @@ table {
 
     .footer .SNS {
         display: flex;
-        margin-top: -30vh;
+        margin-top: 0vh;
         margin-left: 12%;
     }
     
@@ -713,7 +713,6 @@ table {
 
     .footer .last h3 {
         font-size: 0.6rem;
-
     }
 }
 
