@@ -547,7 +547,7 @@ table {
 
     .header .menu .menu-list ul li {
         font-size: 1.2rem;
-        margin-right: 0px; 
+        margin-right: 0; 
         margin-bottom: 0; 
         margin-left: 16vw;
     }
@@ -557,25 +557,25 @@ table {
         font-size: 3.0rem;
         font-weight: 700;
         margin: -2% 0 5vh; /* 上下のマージンを調整 */
-        text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+        text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
     }
-    
+
     #works .first {
         font-size: 1.4rem;
         margin-bottom: 5vh;
     }
-    
+
     #works .design {
         margin-right: 10%;
     }
-    
+
     #works .design p {
         margin-bottom: 3vh;
         font-size: 1rem;
     }
 
     /*img*******************/
-    /*img1*******************/
+    /*img1******************/
     #works .img {
         width: 100%;
         height: auto;
@@ -594,7 +594,7 @@ table {
         width: 80vw;
         height: 30vh;
         margin-left: 12.5%;
-        transition: 0.2s;
+        transition: all 0.2s ease; /* トランジションの整合性を確保 */
         border-radius: 2%;
     }
 
@@ -602,7 +602,7 @@ table {
         transform: scale(1.2);
     }
 
-    /*img2*******************/
+    /*img2******************/
     #works .img .img2 {
         width: 100%;
         height: auto;
@@ -613,7 +613,7 @@ table {
         width: 80vw;
         height: 30vh;
         margin-left: 12.5%;
-        transition: 0.2s;
+        transition: all 0.2s ease; /* トランジションの整合性を確保 */
         border-radius: 2%;
     }
 
@@ -621,7 +621,7 @@ table {
         transform: scale(1.2);
     }
 
-    /*img3*******************/
+    /*img3******************/
     #works .img .img3 {
         width: 100%;
         height: auto;
@@ -630,9 +630,9 @@ table {
     #works .img .img3 img {
         width: 80vw;
         height: 35vh;
-        transition: 0.2s;
+        transition: all 0.2s ease; /* トランジションの整合性を確保 */
         border-radius: 2%;
-        margin-right: 0%;
+        margin-right: 0;
         margin-left: 12.5%;
     }
 
