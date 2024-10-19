@@ -580,7 +580,7 @@ table {
     }
         
     #works .design p {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     #works .img {
@@ -647,7 +647,7 @@ table {
     }
 
     #consept p {
-        font-size: 1.0rem;
+        font-size: 0.8rem;
         margin-bottom: 3vh;
         text-align: left;
     }
@@ -667,7 +667,7 @@ table {
     }
 
     #gratitude p {
-        font-size: 1.0rem;
+        font-size: 0.8rem;
         margin-bottom: 3vh;
         text-align: left;
     }
@@ -682,7 +682,7 @@ table {
     .footer .SNS {
         display: flex;
         height: auto;
-        margin-top: 20vh;
+        margin-top: 20%;
         margin-left: 12%;
     }
     
