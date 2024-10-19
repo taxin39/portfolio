@@ -1,25 +1,9 @@
-html, body {
-    height: 100%; /* bodyの高さを100%に設定 */
-    margin: 0; /* デフォルトのマージンをリセット */
-    font-family: Arial, sans-serif;
-    overflow-y: auto; /* 縦方向のスクロールを許可 */
-}
-
-.content {
-    height: 150vh; /* 各コンテンツの高さをビューポートより大きく設定 */
-    margin-bottom: 20px; /* 各コンテンツ間の余白 */
-    background-color: #f0f0f0; /* 背景色を設定 */
-    display: flex; /* フレックスボックスで中央揃え */
-    justify-content: center; /* 水平方向に中央揃え */
-    align-items: center; /* 垂直方向に中央揃え */
-    font-size: 2em; /* フォントサイズを大きく設定 */
-}
 
 /* アニメーションのスタイル */
 .fade-in {
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 2s ease, transform 1s ease;
 }
 
 .fade-in.visible {
@@ -30,7 +14,7 @@ html, body {
 .fade-left {
     opacity: 0;
     transform: translateX(-50px);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 2s ease, transform 1s ease;
 }
 
 .fade-left.visible {

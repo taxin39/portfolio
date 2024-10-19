@@ -20,25 +20,31 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -92,7 +98,6 @@ table {
     font-style: normal;
     font-family: "Island Moments", cursive;
     font-weight: 400;
-    font-style: normal;
     user-select: none;
 }
 
@@ -122,8 +127,8 @@ table {
 /**works**********************/
 #works {
     width: 100%;
-    height: 105vh;
-    margin-top: 15vh;
+    height: auto; /* 高さを自動に */
+    margin: 15vh 0; /* 上下のマージンを調整 */
 }
 
 /*テキスト*******************/
@@ -131,8 +136,7 @@ table {
     text-align: center;
     font-size: 5rem;
     font-weight: 700;
-    margin-top: -2%;
-    margin-bottom: 5vh;
+    margin: -2% 0 5vh; /* 上下のマージンを調整 */
     text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
 }
 
@@ -151,12 +155,10 @@ table {
     font-size: 1.8rem;
 }
 
- 
 /*img*******************/
 /*img1*******************/
 #works .img {
     width: 100%;
-    height: auto;
     margin-top: 10vh;
     display: flex;
     justify-content: space-around;
@@ -164,14 +166,12 @@ table {
 
 #works .img .img1 {
     width: 100%;
-    height: 600vh;
-    margin-left: 6%;
 }
 
 #works .img .img1 img {
     width: 22vw;
     height: 40vh;
-    margin-left: 8%;
+    margin-left: 30%;
     transition: 0.2s;
     border-radius: 2%;
 }
@@ -183,7 +183,6 @@ table {
 /*img2*******************/
 #works .img .img2 {
     width: 100%;
-    height: 600vh;
 }
 
 #works .img .img2 img {
@@ -191,7 +190,7 @@ table {
     height: 40vh;
     transition: 0.2s;
     border-radius: 2%;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 
 #works .img .img2 img:hover {
@@ -201,7 +200,6 @@ table {
 /*img3*******************/
 #works .img .img3 {
     width: 100%;
-    height: 600vh;
 }
 
 #works .img .img3 img {
@@ -209,6 +207,7 @@ table {
     height: 40vh;
     transition: 0.2s;
     border-radius: 2%;
+    margin-right: 30%;
 }
 
 #works .img .img3 img:hover {
@@ -218,17 +217,15 @@ table {
 /**consept**********************/
 #consept {
     width: 40%;
-    height: 60vh;
-    margin-top: -15vh;
+    height: auto;    
     margin-left: 30%;
 }
 
 #consept h1 {
     text-align: center;
+    margin-bottom: 10%;
     font-size: 5rem;
     font-weight: 700;
-    margin-top: 20vh;
-    margin-bottom: 8%;
     text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
 }
 
@@ -240,19 +237,16 @@ table {
 /**gratitude**********************/
 #gratitude {
     width: 40%;
-    height: 55vh;
-    margin-top: 10vh;
-    margin-left: 30%;
+    height: auto; /* 高さを自動に */
+    margin: 10vh auto 0; /* 上部の余白を調整し、中央揃え */
 }
 
 #gratitude h1 {
     text-align: center;
     font-size: 5rem;
-    margin-top: 5%;
     font-weight: 700;
-    margin-bottom: 8%;
+    margin: 5% 0 8%; /* 上下のマージンを調整 */
     text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
-
 }
 
 #gratitude p {
@@ -263,42 +257,38 @@ table {
 /**footer**********************/
 .footer {
     width: 100%;
-    height: auto;
     display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 5vh; 
 }
 
 .footer .SNS {
     display: flex;
     height: auto;
-    margin-top: 5vh;
-    margin-left: 30%;
+    margin-right: 20%;
+    margin-bottom: 5vh; 
 }
 
-.footer .SNS .first {
+.footer .SNS .first,
+.footer .SNS .second {
     width: 16%;
     height: 16%;
+    margin-left: 5%;
 }
 
 .footer .SNS .first svg {
     width: 100%;
-    padding-top: 5%;
-}
-
-.footer .SNS .second {
-    width: 16%;
-    height: 16%;
+    padding-top: 3%;
 }
 
 .footer .SNS .second svg {
-    margin-top: 5%;
-    margin-left: 50%;
     width: 100%;
     padding-top: 5%;
 }
 
 .footer .last {
     margin-top: auto; 
-    height: auto;
 }
 
 .footer .last h3 {
@@ -338,7 +328,7 @@ table {
     .header .menu .menu-list ul li {
         font-size: 1.2rem;
         margin-right: 8%;
-        margin-top:4vh;
+        margin-top: 4vh;
     }
 
     /**works**********************/
@@ -349,84 +339,86 @@ table {
 
     #works h1 {
         text-align: center;
-        font-size: 5.6rem;
+        font-size: 3.6rem;
         font-weight: 900;
-        padding-left:6%;
+        padding-left: 6%;
     }
 
     #works .first {
         text-align: center;
-        font-size: 1.2rem;
-        padding-left:6%;
+        font-size: 1.6rem;
+        padding-left: 6%;
     }
 
-    #works .design{
+    #works .design {
         margin-left: -5%;
     }
-    
 
-    #works p {
+    #works .design p {
         text-align: left;
-        margin-left: 32%;
+        margin-left: 40%;
+        font-size: 1.2rem;
     }
 
     /*img*******************/
-    #works .img {
-        text-align: center;
-        position: relative;
-    }
     /*img1*******************/
+    #works .img {
+        width: 100%;
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
     #works .img .img1 {
         width: 100%;
-        margin-left: 4%;
     }
 
     #works .img .img1 img {
-        width: 40vw;
-        height: 25vh;
+        width: 26vw;
+        height: 35vh;
+        margin-left: 20%;
         transition: 0.2s;
+        border-radius: 2%;
     }
 
     #works .img .img1 img:hover {
         transform: scale(1.2);
     }
 
-     /*img2*******************/
-     #works .img .img2 {
+    /*img2*******************/
+    #works .img .img2 {
         width: 100%;
-        margin-left: 1vw;
-        margin-right: 1%;
     }
 
     #works .img .img2 img {
-        width: 40vw;
-        height: 25vh;
+        width: 26vw;
+        height: 35vh;
         transition: 0.2s;
+        border-radius: 2%;
+        margin-left: 15%;
     }
 
     #works .img .img2 img:hover {
         transform: scale(1.2);
     }
+
     /*img3*******************/
     #works .img .img3 {
         width: 100%;
-        margin-left: 4vw;
-        position: absolute; 
-        top: 28vh;
     }
-    
-    #works .img .img3 img {
-        width: 40vw;
-        height: 25vh;
-        transition: 0.2s;
-        margin-left: 6vw;
 
+    #works .img .img3 img {
+        width: 26vw;
+        height: 35vh;
+        transition: 0.2s;
+        border-radius: 2%;
+        margin-left:10%;
     }
-    
-    /* img3の画像に対するホバー効果を適用 */
+
     #works .img .img3 img:hover {
         transform: scale(1.2);
     }
+
 
     /**consept**********************/
     #consept {
@@ -438,13 +430,13 @@ table {
 
     #consept h1 {
         text-align: center;
-        font-size: 4.6rem;
+        font-size: 3.6rem;
         margin-top: 10vh;
         margin-bottom: 5vh;
     }
 
     #consept p {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         margin-bottom: 6vh;
     }
 
@@ -458,24 +450,24 @@ table {
 
     #gratitude h1 {
         margin-bottom: 6vh;
-        font-size: 4.6rem;
+        font-size: 3.6rem;
     }
     
     #gratitude p {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         margin-bottom: 3vh;
     }
 
     /**footer**********************/
     .footer {
         width: 100%;
-        height: 200vh;
+        height: auto; /* 高さを自動に */
     }
     
     .footer .SNS {
         display: flex;
         height: 30%;
-        margin-left: 12%;
+        margin-left: 8%;
     }
     
     .footer .SNS .first {
@@ -495,12 +487,11 @@ table {
     
     .footer .SNS .second svg {
         margin-top: 0%;
-        margin-left: 50%;
         width: 100%;
     }
     
     .footer .last {
-        margin-left: -40%;
+        margin-left: 40%;
     }
 
     .footer .last h3 {
@@ -530,10 +521,9 @@ table {
 
     .header .menu .title h1 {
         font-size: 3.0rem;
-        margin-top: 4vh;
+        margin-top: 2vh;
         margin-left: 2vw;
     }
-
 
     .header .menu .title h2 {
         font-size: 1.6rem;
@@ -562,74 +552,93 @@ table {
         margin-left: 16vw;
     }
 
+    /**works**********************/
+    #works h1 {
+        font-size: 3.0rem;
+        font-weight: 700;
+        margin: -2% 0 5vh; /* 上下のマージンを調整 */
+        text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+    }
+    
+    #works .first {
+        font-size: 1.4rem;
+        margin-bottom: 5vh;
+    }
+    
+    #works .design {
+        margin-right: 10%;
+    }
+    
+    #works .design p {
+        margin-bottom: 3vh;
+        font-size: 1rem;
+    }
+
     /*img*******************/
     /*img1*******************/
-    #works {
+    #works .img {
         width: 100%;
         height: auto;
-        margin-top: 20%;
-    }
-
-    #works .img {
-        height: auto;
+        margin-top: 10vh;
         display: block;
-    }
-
-    #works .design {
-        margin-left: -15%;
-        height: auto;
-    }
-        
-    #works .design p {
-        font-size: 0.8rem;
-    }
-
-    #works .img {
-        height: auto;
+        justify-content: space-around;
     }
 
     #works .img .img1 {
-        margin-top: -5vh;
         width: 100%;
-        height: 25vh;
+        height: auto;
+        margin-bottom: 5%;
     }
 
     #works .img .img1 img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
+        width: 80vw;
         height: 30vh;
-      }
+        margin-left: 12.5%;
+        transition: 0.2s;
+        border-radius: 2%;
+    }
+
+    #works .img .img1 img:hover {
+        transform: scale(1.2);
+    }
 
     /*img2*******************/
     #works .img .img2 {
-        margin-top: 8vh;
         width: 100%;
         height: auto;
-        margin-left: 4%;
+        margin-bottom: 5%;
     }
 
     #works .img .img2 img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
+        width: 80vw;
         height: 30vh;
-      }
+        margin-left: 12.5%;
+        transition: 0.2s;
+        border-radius: 2%;
+    }
+
+    #works .img .img2 img:hover {
+        transform: scale(1.2);
+    }
 
     /*img3*******************/
     #works .img .img3 {
-        margin-top: 38vh;
         width: 100%;
         height: auto;
-        margin-left: 4%;
     }
 
     #works .img .img3 img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-        height: 30vh;
-      }
+        width: 80vw;
+        height: 35vh;
+        transition: 0.2s;
+        border-radius: 2%;
+        margin-right: 0%;
+        margin-left: 12.5%;
+    }
+
+    #works .img .img3 img:hover {
+        transform: scale(1.2);
+    }
 
     /**consept**********************/
     #consept {
@@ -637,14 +646,13 @@ table {
         height: auto;
         text-align: center;
         margin-left: 12%;
-        margin-top: 45vh;
     }
 
     #consept h1 {
         text-align: center;
-        font-size: 3.6rem;
+        font-size: 3.0rem;
         margin-top: 5vh;
-        margin-bottom:3vh;
+        margin-bottom: 5vh;
     }
 
     #consept p {
@@ -652,6 +660,7 @@ table {
         margin-bottom: 3vh;
         text-align: left;
     }
+
     /**gratitude**********************/
     #gratitude {
         width: 80%;
@@ -662,7 +671,7 @@ table {
 
     #gratitude h1 {
         text-align: center;
-        font-size: 3.2rem;
+        font-size: 3.0rem;
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
@@ -678,47 +687,54 @@ table {
         width: 100%;
         height: auto;
         display: flex;
+        padding: 0; /* パディングを削除 */
     }
 
     .footer .SNS {
         display: flex;
         height: auto;
-        margin-top: 20%;
-        margin-left: 12%;
+        margin-left: 8%;
+        padding: 0; /* パディングを削除 */
     }
-    
+
     .footer .SNS .first {
         width: 12%;
         height: 12%;
-        margin-top: 0vh;
+        margin-top: 0;
     }
-    
+
     .footer .SNS .first svg {
         width: 100%;
-        padding-top: 0%;
-    }
-    
-    .footer .SNS .second {
-        width: 12vw;
-        height: 12vh;
-        margin-top: 0vh;
-    }
-    
-    .footer .SNS .second svg {
-        margin-left: 50%;
-        width: 100%;
-        padding-top: 0%;
-    }
-    
-    .footer .last {
         height: auto;
-        margin-left: -70%;
+        padding-top: 0; /* パディングを削除 */
+        margin: 0; /* マージンを削除 */
+    }
+
+    .footer .SNS .second {
+        width: 10vw;
+        height: 10vh;
+        margin-top: 0;
+    }
+
+    .footer .SNS .second svg {
+        margin-left: 10%;
+        width: 100%;
+        padding-top: 0; /* パディングを削除 */
+        margin: 0; /* マージンを削除 */
+    }
+
+    .footer .last {
+        margin-left: 30%;
+        padding: 0; /* パディングを削除 */
+    }
+
+    .footer .last p {
+        height: auto;
+        margin: 0; /* <p>タグのマージンを削除 */
     }
 
     .footer .last h3 {
+        margin-top: -25%;
         font-size: 0.6rem;
     }
 }
-
-
-
