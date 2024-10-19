@@ -49,7 +49,7 @@ table {
 /*全体**********************/
 .header {
     width: 100%;
-    height: 95vh;
+    height: auto;
     position: relative;
 }
 
@@ -87,7 +87,7 @@ table {
 
 .header .menu .title h2 {
     font-size: 3.4rem;
-    margin-top: -2vh;
+    margin-top: -1vh;
     margin-left: 5%;
     font-style: normal;
     font-family: "Island Moments", cursive;
@@ -156,6 +156,7 @@ table {
 /*img1*******************/
 #works .img {
     width: 100%;
+    height: auto;
     margin-top: 10vh;
     display: flex;
     justify-content: space-around;
@@ -269,7 +270,7 @@ table {
 .footer .SNS {
     display: flex;
     height: auto;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin-left: 30%;
 }
 
@@ -689,23 +690,24 @@ table {
     .footer .SNS .first {
         width: 12%;
         height: 12%;
-        margin-top: 8vh;
+        margin-top: 0vh;
     }
     
     .footer .SNS .first svg {
         width: 100%;
+        padding-top: 0%;
     }
     
     .footer .SNS .second {
         width: 12vw;
         height: 12vh;
-        margin-top: 8vh;
+        margin-top: 0vh;
     }
     
     .footer .SNS .second svg {
-        margin-top: 5%;
         margin-left: 50%;
         width: 100%;
+        padding-top: 0%;
     }
     
     .footer .last {
