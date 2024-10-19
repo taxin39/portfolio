@@ -680,52 +680,65 @@ table {
         font-size: 0.8rem;
         margin-bottom: 3vh;
         text-align: left;
+        position: relative; /* 相対位置を確保 */
+        z-index: 2; /* pタグがフッターの上に表示されるように調整 */
     }
-
+    
     /**footer**********************/
     .footer {
         width: 100%;
         height: auto;
         display: flex;
         padding: 0; /* パディングを削除 */
+        position: relative; /* 相対位置に配置して、他の要素と競合しないように */
+        z-index: 1; /* フッターがpタグより下に表示されるように調整 */
+        background-color: white; /* 背景色を指定して他の要素と区別 */
+        margin-top: 5vh; /* フッターとコンテンツに余白を追加 */
     }
-
+    
     .footer .SNS {
         display: flex;
         height: auto;
-        margin-top: 10%;
+        margin-top: 10%; /* SNSセクションの余白 */
         margin-left: 8%;
-        margin-bottom: 0%;
+        margin-bottom: 0;
+        position: relative; /* 相対位置で安定化 */
     }
-
+    
     .footer .SNS .first {
         width: 12%;
         height: 12%;
         margin-top: 0;
     }
-
+    
     .footer .SNS .first svg {
         width: 100%;
         height: auto;
     }
-
+    
     .footer .SNS .second {
         width: 10vw;
         height: 12vh;
         margin-top: 0;
     }
-
+    
     .footer .SNS .second svg {
         margin-left: 10%;
         width: 100%;
         margin: 0; /* マージンを削除 */
     }
-
+    
     .footer .last {
         margin-left: 50%;
     }
-
+    
     .footer .last h3 {
         font-size: 0.6rem;
+    }
+    
+    /* フッターがスクロール時に隠れないように調整 */
+    body {
+        padding-bottom: 10vh; /* フッターの下に余白を追加してスペースを確保 */
+        margin: 0;
     }
 }
