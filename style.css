@@ -1,38 +1,49 @@
-* {
+/* リセットCSS */
+/* Eric Meyer's Reset CSS v2.0 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
+    border: 0;
     font-size: 100%;
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-
-img {
-    max-width: 100%;
-    height: auto;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
     display: block;
 }
-
-ul, li {
+body {
+    line-height: 1;
+}
+ol, ul {
     list-style: none;
 }
-
-a {
-    text-decoration: none;
-    color: inherit;
+blockquote, q {
+    quotes: none;
 }
-
-button, input {
-    border: none;
-    background: none;
-    padding: 0;
-    outline: none;
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
 }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* リセットCSS end*/
 
 /**ヘッダー**********************/
 /*全体**********************/
@@ -122,6 +133,7 @@ button, input {
     font-weight: 700;
     margin-top: -2%;
     margin-bottom: 5vh;
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
 }
 
 #works .first {
@@ -216,6 +228,7 @@ button, input {
     font-weight: 700;
     margin-top: 20vh;
     margin-bottom: 8%;
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
 }
 
 #consept p {
@@ -227,6 +240,7 @@ button, input {
 #gratitude {
     width: 40%;
     height: 55vh;
+    margin-top: 10vh;
     margin-left: 30%;
 }
 
@@ -236,6 +250,8 @@ button, input {
     margin-top: 5%;
     font-weight: 700;
     margin-bottom: 8%;
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+
 }
 
 #gratitude p {
@@ -665,6 +681,7 @@ button, input {
 
     .footer .SNS {
         display: flex;
+        margin-top: -30vh;
         margin-left: 12%;
     }
     
