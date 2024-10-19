@@ -664,7 +664,7 @@ table {
     /**gratitude**********************/
     #gratitude {
         width: 80%;
-        height: 34vh;
+        height: auto;
         text-align: center;
         margin-left: 12%;
     }
