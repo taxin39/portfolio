@@ -694,6 +694,7 @@ table {
     .footer .SNS {
         display: flex;
         height: auto;
+        margin-top: 5%;
         margin-left: 8%;
     }
 
