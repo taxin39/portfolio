@@ -1,4 +1,11 @@
 
+.example {
+    -webkit-transition: all 0.3s; /* Safari */
+    -moz-transition: all 0.3s; /* Firefox */
+    -o-transition: all 0.3s; /* Opera */
+    transition: all 0.3s; /* Standard */
+}
+
 /* アニメーションのスタイル */
 .fade-in {
     opacity: 0;
