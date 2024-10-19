@@ -689,6 +689,8 @@ table {
         padding: 0;
         clear: both; /* クリアを追加して重なりを防ぐ */
         margin-top: 5vh; /* フッターと上部要素の間に余白を追加 */
+        position: relative; /* フッターを相対的に配置 */
+        z-index: 1; /* フッターが他の要素の上に重ならないようにする */
     }
     
     .footer .SNS {
@@ -696,6 +698,8 @@ table {
         height: auto;
         margin-top: 5%;
         margin-left: 8%;
+        position: relative; /* SNS要素を相対的に配置 */
+        z-index: 1; /* pタグより前に配置する */
     }
     
     .footer .SNS .first {
