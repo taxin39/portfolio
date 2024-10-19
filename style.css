@@ -644,15 +644,15 @@ table {
         width: 80%;
         height: auto;
         text-align: center;
-        margin-top: -5%;
+        margin-top: 10%;
         margin-left: 12%;
     }
 
     #consept h1 {
         text-align: center;
         font-size: 3.0rem;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+        margin-top: 10vh;
+        margin-bottom: 8vh;
     }
 
     #consept p {
@@ -664,7 +664,7 @@ table {
     /**gratitude**********************/
     #gratitude {
         width: 80%;
-        height: auto;
+        height: 34vh;
         text-align: center;
         margin-left: 12%;
     }
@@ -673,7 +673,7 @@ table {
         text-align: center;
         font-size: 3.0rem;
         margin-top: 5vh;
-        margin-bottom: 7vh;
+        margin-bottom: 8vh;
     }
 
     #gratitude p {
@@ -681,62 +681,51 @@ table {
         margin-bottom: 3vh;
         text-align: left;
     }
-    
+
+    /**footer**********************/
     .footer {
         width: 100%;
         height: auto;
         display: flex;
-        padding: 0;
-        clear: both; /* クリアを追加して重なりを防ぐ */
-        margin-top: 5vh; /* フッターと上部要素の間に余白を追加 */
-        position: relative; /* フッターを相対的に配置 */
-        z-index: 1; /* フッターが他の要素の上に重ならないようにする */
+        padding: 0; /* パディングを削除 */
     }
-    
+
     .footer .SNS {
         display: flex;
         height: auto;
-        margin-top: 5%;
+        margin-top: 10%;
         margin-left: 8%;
-        position: relative; /* SNS要素を相対的に配置 */
-        z-index: 1; /* pタグより前に配置する */
+        margin-bottom: 0%;
     }
-    
+
     .footer .SNS .first {
         width: 12%;
         height: 12%;
         margin-top: 0;
     }
-    
+
     .footer .SNS .first svg {
         width: 100%;
         height: auto;
     }
-    
+
     .footer .SNS .second {
         width: 10vw;
         height: 12vh;
         margin-top: 0;
     }
-    
+
     .footer .SNS .second svg {
         margin-left: 10%;
         width: 100%;
-        padding-top: 0;
-        margin: 0;
+        margin: 0; /* マージンを削除 */
     }
-    
+
     .footer .last {
-        height: 5vh;
         margin-left: 50%;
     }
-    
+
     .footer .last h3 {
         font-size: 0.6rem;
-    }
-    
-    /* フッターとコンテンツの重なりを防ぐための追加調整 */
-    body {
-        padding-bottom: 5vh; /* フッターに余裕を持たせる */
     }
 }
