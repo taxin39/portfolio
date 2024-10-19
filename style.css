@@ -689,7 +689,7 @@ table {
     .footer .SNS .first {
         width: 12%;
         height: 12%;
-        margin-top: 15vh;
+        margin-top: 8vh;
     }
     
     .footer .SNS .first svg {
@@ -699,14 +699,13 @@ table {
     .footer .SNS .second {
         width: 12vw;
         height: 12vh;
-        margin-top: 15vh;
+        margin-top: 8vh;
     }
     
     .footer .SNS .second svg {
         margin-top: 5%;
         margin-left: 50%;
         width: 100%;
-        padding-top: 5%;
     }
     
     .footer .last {
