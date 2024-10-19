@@ -681,7 +681,8 @@ table {
 
     .footer .SNS {
         display: flex;
-        margin-top: 0vh;
+        height: auto;
+        margin-top: 20vh;
         margin-left: 12%;
     }
     
@@ -708,6 +709,7 @@ table {
     }
     
     .footer .last {
+        height: auto;
         margin-left: -70%;
     }
 
