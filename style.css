@@ -665,7 +665,7 @@ table {
     /**gratitude**********************/
     #gratitude {
         width: 80%;
-        height: auto;
+        height: 34vh;
         text-align: center;
         margin-left: 12%;
     }
@@ -674,7 +674,7 @@ table {
         text-align: center;
         font-size: 3.0rem;
         margin-top: 5vh;
-        margin-bottom: 5vh;
+        margin-bottom: 7vh;
     }
 
     #gratitude p {
@@ -695,7 +695,6 @@ table {
         display: flex;
         height: auto;
         margin-left: 8%;
-        padding: 0; /* パディングを削除 */
     }
 
     .footer .SNS .first {
@@ -713,7 +712,7 @@ table {
 
     .footer .SNS .second {
         width: 10vw;
-        height: 10vh;
+        height: 12vh;
         margin-top: 0;
     }
 
@@ -725,17 +724,12 @@ table {
     }
 
     .footer .last {
+        height: 5vh;
         margin-left: 30%;
-        padding: 0; /* パディングを削除 */
-    }
-
-    .footer .last p {
-        height: auto;
-        margin: 0; /* <p>タグのマージンを削除 */
+        margin-top: -15%;
     }
 
     .footer .last h3 {
-        margin-top: -25%;
         font-size: 0.6rem;
     }
 }
