@@ -724,7 +724,7 @@ table {
     .footer .last {
         height: 5vh;
         margin-left: 50%;
-        transform: translateY(-10vh);
+        transform: translateY(0vh);
     }
 
     .footer .last h3 {
