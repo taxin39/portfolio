@@ -214,6 +214,31 @@ table {
     transform: scale(1.2);
 }
 
+/*img-2(2024/10/20追加分)*******************/
+/*img1*******************/
+#works .img-2 {
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#works .img-2 .img1 {
+    width: 100%;
+}
+
+#works .img-2 .img1 img {
+    width: 80vw;
+    height: 60vh;
+    margin-left: 10%;
+    transition: 0.2s;
+    border-radius: 2%;
+}
+
+#works .img-2 .img1 img:hover {
+    transform: scale(1.2);
+}
+
 /**consept**********************/
 #consept {
     width: 40%;
@@ -638,7 +663,30 @@ table {
     #works .img .img3 img:hover {
         transform: scale(1.2);
     }
+    /*img-2(2024/10/20追加分)*******************/
+    /*img1*******************/
+    #works .img-2 {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+    }
 
+    #works .img-2 .img1 {
+        width: 100%;
+    }
+
+    #works .img-2 .img1 img {
+        width: 80vw;
+        height: 35vh;
+        margin-left: 12.5%;
+        transition: all 0.2s ease; /* トランジションの整合性を確保 */
+        border-radius: 2%;
+    }
+
+    #works .img-2 .img1 img:hover {
+        transform: scale(1.2);
+    }
     /**consept**********************/
     #consept {
         width: 80%;
