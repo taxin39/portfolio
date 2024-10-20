@@ -653,7 +653,7 @@ table {
 
     #works .img .img3 img {
         width: 80vw;
-        height: 35vh;
+        height: 30vh;
         transition: all 0.2s ease; /* トランジションの整合性を確保 */
         border-radius: 2%;
         margin-right: 0;
